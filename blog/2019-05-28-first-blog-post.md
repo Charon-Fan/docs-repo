@@ -15,6 +15,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum 
 
 Hello
 
+![](/img/undraw_docusaurus_react.svg)
+
 ### ssssss
 
 ```javascript
