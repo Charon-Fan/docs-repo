@@ -21,9 +21,29 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "Tutorial",
+        label: "Tutorial",
+        path: "docs",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
+      {
+        name: "Blog",
+        label: "Blog",
+        path: "blog",
         fields: [
           {
             type: "string",
