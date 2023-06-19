@@ -21,7 +21,7 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "Tutorial",
+        name: "tutorial",
         label: "Tutorial",
         path: "docs",
         fields: [
@@ -41,7 +41,7 @@ export default defineConfig({
         ],
       },
       {
-        name: "Blog",
+        name: "blog",
         label: "Blog",
         path: "blog",
         fields: [
