@@ -18,8 +18,8 @@ tags:
 The editor-produced Markdown output supports most essential features, like [links](https://ckeditor.com/), different kinds of emphasis, inline code formatting, or code blocks:
 
 p {
-    text-align: center;
-    color: red;
+text-align: center;
+color: red;
 }
 
 ## Markdown input 🛬
@@ -45,3 +45,5 @@ You can also use Markdown to create various text blocks, such as:
   * To-do lists - Start a line with \[ ] or \[x] followed by a space to insert an unchecked or checked list item.
 * Code blocks - Start a line with ˋˋˋ.
 * Horizontal lines - Start a line with ---
+
+![](/admin/test-img/coinCap.png)
