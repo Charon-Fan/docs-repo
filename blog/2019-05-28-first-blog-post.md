@@ -46,6 +46,6 @@ You can also use Markdown to create various text blocks, such as:
 * Code blocks - Start a line with ˋˋˋ.
 * Horizontal lines - Start a line with ---
 
-![](/admin/test-img/coinCap.png)
-
 test
+
+![](/img/coinCap.png)
