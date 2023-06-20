@@ -11,41 +11,62 @@ tags:
   - docusaurus
 ---
 
-## Markdown output 🛫
+<h1 align="center">Markdown Editor built on Vue</h1>
 
-[CKEditor 5](https://ckeditor.com/) can be configured to output Markdown instead of HTML. Markdown is a lightweight markup language that you can use to add formatting to plain text documents. Use the Source button to check and edit the Markdown source code of this content.
+<p align="center">
+  <a href="https://npmcharts.com/compare/@kangc/v-md-editor?minimal=true"><img src="https://img.shields.io/npm/dm/@kangc/v-md-editor.svg?sanitize=true" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/@kangc/v-md-editor"><img src="https://img.shields.io/npm/v/@kangc/v-md-editor.svg?sanitize=true" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/@kangc/v-md-editor"><img src="https://img.shields.io/npm/l/@kangc/v-md-editor.svg?sanitize=true" alt="License"></a>
+</p>
 
-The editor-produced Markdown output supports most essential features, like [links](https://ckeditor.com/), different kinds of emphasis, inline code formatting, or code blocks:
+## Links
 
-p {
-text-align: center;
-color: red;
-}
+* [Demo](https://code-farmer-i.github.io/vue-markdown-editor/examples/base-editor.html)
+* [Documentation](https://code-farmer-i.github.io/vue-markdown-editor/)
+* [Changelog](https://code-farmer-i.github.io/vue-markdown-editor/changelog.html)
 
-## Markdown input 🛬
+## Install
 
-Thanks to the [autoformatting feature](https://ckeditor.com/docs/ckeditor5/latest/features/autoformat.html), you can use Markdown syntax when writing. Try it out - use these (or any other) Markdown shortcuts in the editor to format the content on the fly 🚀!
+```bash
+# use npm
+npm i @kangc/v-md-editor -S
 
-Inline formattingShortcutBoldType \*\* or \_\_ around your text.ItalicType \* or \_ around your text.CodeType ˋ around your text.StrikethroughType ~~ around your text.
+# use yarn
+yarn add @kangc/v-md-editor
+```
 
-Shh! 🤫 Markdown has very basic support for tables. Some advanced table-related features like table or cell styling were disabled in this demo.
+## Quick Start
 
-## Block formatting
+```js
+import Vue from 'vue';
+import VueMarkdownEditor from '@kangc/v-md-editor';
+import '@kangc/v-md-editor/lib/style/base-editor.css';
+import vuepressTheme from '@kangc/v-md-editor/lib/theme/vuepress.js';
 
-You can also use Markdown to create various text blocks, such as:
+VueMarkdownEditor.use(vuepressTheme);
 
-* Block quotes - Start a line with ﹥ followed by a space.
-* Headings:
-  1. Heading 1 - Start a line with # followed by a space.
-  2. Heading 2 - Start a line with ## followed by a space.
-  3. Heading 3 - Start a line with ### followed by a space.
-* Lists, including nested ones:
-  * Numbered lists - Start a line with 1. or 1) followed by a space.
-  * Bulleted lists - Start a line with \* or - followed by a space.
-  * To-do lists - Start a line with \[ ] or \[x] followed by a space to insert an unchecked or checked list item.
-* Code blocks - Start a line with ˋˋˋ.
-* Horizontal lines - Start a line with ---
+Vue.use(VueMarkdownEditor);
+```
 
-test
+## Usage
 
-![](/img/coinCap.png)
+```html
+<template>
+  <v-md-editor v-model="text" height="400px"></v-md-editor>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {
+        text: '',
+      };
+    },
+  };
+</script>
+```
+
+## Refrence
+
+* [ElementUi Scrollbar Component](https://github.com/ElemeFE/element/tree/dev/packages/scrollbar)
+* [vuepress-plugin-container](https://vuepress.github.io/zh/plugins/container/)
