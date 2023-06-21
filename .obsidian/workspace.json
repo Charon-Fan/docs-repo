@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "3f130ba89afa91cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "96a4116134780fa7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64c7374c9ee8efc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorial/tutorial-basics/congratulations.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb399c1aa1796b7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc09e4f1dc367e33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "711c522a8a3de2fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "16c45f075b2c89b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "006ce735e8f34369",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "91c3c6928757c933",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c4ffefad19650d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64962160409ec132",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tutorial/tutorial-basics/congratulations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "39ab37e77209f4ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tutorial/tutorial-basics/congratulations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4b57a525c3ec07ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80cf2da3fcbb7792",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tutorial/tutorial-basics/congratulations.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "64c7374c9ee8efc0",
+  "lastOpenFiles": [
+    "tutorial/tutorial-test/mdnice.md",
+    "index.md",
+    "blog/new-blog.md",
+    "blog/new-blog",
+    "blog/blog-2",
+    "tutorial/tutorial-basics/create-a-page.md",
+    "tutorial/tutorial-basics/create-a-document.md",
+    "tutorial/tutorial-basics/create-a-blog-post.md",
+    "blog/2019-05-28-first-blog-post.md",
+    "blog/2021-08-26-welcome/index.md",
+    "blog/2019-05-29-long-blog-post.md",
+    "tutorial/test.md",
+    "tutorial/intro.md",
+    "tutorial/tutorial-extras/manage-docs-versions.md",
+    "tutorial/tutorial-extras/translate-your-site.md",
+    "tutorial/2019-05-28-first-blog-post.md",
+    "blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg",
+    "img/docusaurus.png"
+  ]
+}
