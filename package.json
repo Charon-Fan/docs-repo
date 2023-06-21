@@ -1,12 +1,11 @@
 {
-  "name": "accountlabs-cms",
+  "name": "cool",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "dev": "tinacms dev -c \"docusaurus start\"",
-    "build": "tinacms build && docusaurus build",
-    "start": "tinacms build && docusaurus start",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -19,12 +18,10 @@
     "@docusaurus/core": "2.4.1",
     "@docusaurus/preset-classic": "2.4.1",
     "@mdx-js/react": "^1.6.22",
-    "@tinacms/cli": "^1.5.19",
     "clsx": "^1.2.1",
     "prism-react-renderer": "^1.3.5",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "tinacms": "^1.5.10"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.1",
