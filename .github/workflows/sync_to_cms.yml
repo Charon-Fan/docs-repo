@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: accountlabs-static/cms
-          token: ${{ secrets.sync-docs }}
+          token: ${{ secrets.SYNC_DOCS }}
           path: cms
 
       - name: Update docs submodule in cms
