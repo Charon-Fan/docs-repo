@@ -1,4 +1,4 @@
-name: Sync to CMS
+name: Sync docs to CMS
 
 on:
   push:
@@ -12,6 +12,7 @@ jobs:
       - name: Checkout docs-repo
         uses: actions/checkout@v2
         with:
+          repository: accountlabs-static/docs-repo
           path: docs-repo
 
       - name: Checkout cms
@@ -20,13 +21,14 @@ jobs:
           repository: accountlabs-static/cms
           token: ${{ secrets.SYNC_DOCS }}
           path: cms
+          submodules: 'recursive'
 
       - name: Update docs submodule in cms
         run: |
           cd cms
+          git submodule update --remote docs
           git config --global user.email "static@accountlabs.com"
           git config --global user.name "accountlabs-static"
-          git submodule update --remote -- docs
           git add docs
           git commit -m "Update docs submodule"
           git push
