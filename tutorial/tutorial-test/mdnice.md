@@ -94,6 +94,7 @@ _这个是斜体_
 >>
 >> [Markdown Nice最全功能介绍](https://mp.weixin.qq.com/s/lM808MxUu6tp8zU8SBu3sg)
 >> 
+>> ![这里写图片描述](https://files.mdnice.com/pic/cd3ca20c-896f-4cfc-9bdd-c4c58e69ba26.jpg)
 
 三级引用如下：
 
@@ -165,13 +166,10 @@ _这个是斜体_
 脚注与链接的区别如下所示：
 
 ```markdown
-链接：[文字](链接)
-脚注：[文字](脚注解释 "脚注名字")
 ```
 
 有人认为在[大前端时代](https://en.wikipedia.org/wiki/Front-end_web_development "Front-end web development")的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。
 
-[全栈工程师](是指掌握多种技能，并能利用多种技能独立完成产品的人。 "什么是全栈工程师")在业务开发流程中起到了至关重要的作用。
 
 脚注内容请拉到最下面观看。
 
