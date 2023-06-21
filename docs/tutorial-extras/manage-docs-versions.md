@@ -16,6 +16,8 @@ npm run docusaurus docs:version 1.0
 ```  
   
 The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.  
+
+![D](../../static/img/docusaurus-social-card.jpg)
   
 Your docs now have 2 versions:  
   
