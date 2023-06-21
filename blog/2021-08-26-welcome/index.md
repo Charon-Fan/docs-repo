@@ -10,6 +10,8 @@ share: true
 
 ## Test2
 
+### test3
+
 Simply add Markdown files (or folders) to the `blog` directory.
 
 Regular blog authors can be added to `authors.yml`.
