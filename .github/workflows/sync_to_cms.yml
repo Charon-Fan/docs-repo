@@ -1,0 +1,32 @@
+name: Sync to CMS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout docs-repo
+        uses: actions/checkout@v2
+        with:
+          path: docs-repo
+
+      - name: Checkout cms
+        uses: actions/checkout@v2
+        with:
+          repository: accountlabs-static/cms
+          token: ${{ secrets.PAT }}
+          path: cms
+
+      - name: Update docs submodule in cms
+        run: |
+          cd cms
+          git config --global user.email "static@accountlabs.com"
+          git config --global user.name "accountlabs-static"
+          git submodule update --remote -- docs
+          git add docs
+          git commit -m "Update docs submodule"
+          git push
